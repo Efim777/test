@@ -1,0 +1,12 @@
+.notification{
+    height: 60px;
+    width: 100%;
+    background-color: #6FD15640;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
