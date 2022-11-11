@@ -44,7 +44,7 @@ export default class Home extends Component {
                             <h2>Checkout faster</h2>
                             <p>Our pre-filled form lets you request a loan faster, so you can get on with your day.</p>
                         </div>
-                        <div>
+                        <div className="start-email">
                             <span>Start here</span>
                             <input className="form-control input-email" type="email" placeholder="Email Address"></input>
                         </div>
