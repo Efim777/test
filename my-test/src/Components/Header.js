@@ -8,6 +8,8 @@ import {
 import './Header.css';
 import logo from '../Img/logo.svg'
 import close from '../Img/close.svg'
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from '../Pages/Home.js';
 
 export default class Header extends Component {
     render() {
@@ -35,6 +37,12 @@ export default class Header extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
+
+                <Router>
+                    <Routes>
+                        <Route exact path="/" element={<Home/>}/>
+                    </Routes>
+                </Router>
             </>
         )
     }

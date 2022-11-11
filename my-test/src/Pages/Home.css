@@ -1,4 +1,41 @@
 .baner{
+    position: relative;
     background: url(../Img/img.jpg);
     min-height: 530px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 13px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+.header-title {
+    bottom: 80px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: white;
+}
+
+.subtitle{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    bottom: 80px;
+    left: 80px;
+    color: white;
+    gap: 48px;
+}
+
+.blocks{
+    gap: 24px;
+    max-width: 930px;
+    width: 100%;
+    height: 530px;
+    align-items: center;
 }
