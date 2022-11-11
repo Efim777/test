@@ -107,3 +107,20 @@
     top: 30px;
     width: 83px;
 }
+
+@media screen and (max-width: 900px) {
+    .wrapper{
+        flex-direction: column-reverse;
+    }
+    .checkout{
+        margin-left: 0;
+        max-width: 100%;
+        margin-bottom: 12px;
+    }
+    .checkout span{
+        left: 90%;
+    }
+    .baner h1{
+        display: none;
+    }
+}

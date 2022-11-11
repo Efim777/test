@@ -92,3 +92,10 @@ dd {
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 100%;
+    padding: 0 40px;
+  }
+}

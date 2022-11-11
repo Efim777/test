@@ -10,3 +10,25 @@
     font-size: 16px;
     line-height: 20px;
 }
+
+.nav-header{
+    gap: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex !important;
+    align-items: center;
+}
+
+.nav-item{
+    color: black !important;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 36px 0;
+}
