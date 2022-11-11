@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import './Home.css';
 import check from "../Img/check.svg";
 import watch from "../Img/watch.svg";
@@ -9,7 +9,7 @@ export default class Home extends Component {
     render() {
         return (
             <Container>
-                <div>
+                <div className="d-flex justify-content-between wrapper">
                     <div>
                         <div className="baner">
                             <h1 className="header-title">Time is money,<br/> don’t waste it</h1>
@@ -39,7 +39,17 @@ export default class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div></div>
+                    <div className="checkout">
+                        <div className="checkout-title">
+                            <h2>Checkout faster</h2>
+                            <p>Our pre-filled form lets you request a loan faster, so you can get on with your day.</p>
+                        </div>
+                        <div>
+                            <span>Start here</span>
+                            <input className="form-control input-email" type="email" placeholder="Email Address"></input>
+                        </div>
+                        <Button variant="primary" className="btn-started">Get Started</Button>
+                    </div>
                 </div>
             </Container>
         )
