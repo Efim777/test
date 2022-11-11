@@ -49,6 +49,14 @@
     width: 100%;
 }
 
+.text-block .title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
 .checkout{
     max-width: 390px;
     height: auto;
@@ -122,5 +130,23 @@
     }
     .baner h1{
         display: none;
+    }
+    .baner{
+        min-height: 100%;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Img/img.jpg);
+        background-size: cover;
+        background-position: 50% 50%;
+        padding: 48px 24px;
+    }
+    .subtitle{
+        flex-direction: column;
+    }
+    .subtitle p{
+        max-width: 100%;
+    }
+    .blocks{
+        flex-direction: column;
+        justify-content: center;
+        gap: 48px;
     }
 }

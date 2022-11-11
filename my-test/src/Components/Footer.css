@@ -16,3 +16,11 @@
     color: white;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 900px) {
+    .footer{
+        padding: 24px;
+        height: 290px;
+        justify-content: center;
+    }
+}

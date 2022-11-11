@@ -32,3 +32,10 @@
     width: 100%;
     padding: 36px 0;
 }
+
+.btn-login{
+    background: rgba(0, 133, 255, 0.1);
+    color: #0085FF;
+    padding: 12px 24px;
+    border: 0;
+}
